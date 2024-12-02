@@ -1,0 +1,626 @@
+{
+  "toastCommon": {},
+  "intlCurrencyWithOptions": "{{val, currency(currency: VND)}}",
+  "intlDateTime": "On the {{val, datetime}}",
+  "dateFormat": "MM/dd/yyyy",
+  "timeFormat": "h:mm a",
+
+  "message": {
+    "notFoundTitle": "Không tìm thấy trang",
+    "deletedItemNotification": "Vừa xoá món",
+    "notFoundContent": "Xin lỗi, trang bạn đang tìm kiếm không tồn tại.",
+    "forbiddenTitle": "Truy cập bị từ chối",
+    "forbiddenContent": "Xin lỗi, bạn không có quyền truy cập trang này.",
+    "emptyData": "Không có dữ liệu!",
+    "emptyFood": "Không có món ăn nào!",
+    "emptyBranch": "Không có chi nhánh nào!",
+    "emptyEmployee": "Không có nhân viên nào!",
+    "emptyMenu": "Không có thực đơn nào!",
+    "error": "Đã xảy ra lỗi",
+    "success": "Thành công",
+    "warning": "Cảnh báo",
+    "info": "Thông tin",
+    "table_name": "Bàn {{tableName}}",
+    "empty_table_name": "Vui lòng nhập tên bàn",
+    "table_status": "Trạng thái bàn",
+    "table_status_empty": "Trống",
+    "table_status_occupied": "Đã đặt",
+    "table_status_served": "Đã phục vụ",
+    "table_status_checkout": "Đã thanh toán",
+    "table_status_cancel": "Đã huỷ",
+    "table_status_pending": "Đang xử lý",
+    "table_confirm_delete": "Bạn có chắc chắn muốn xóa không?",
+    "table_please_input": "Nhập tên bàn...",
+    "add_table": "Thêm bàn",
+    "order": "Đặt hàng",
+    "order_success": "Đặt hàng thành công",
+    "order_fail": "Đặt hàng thất bại",
+    "order_pending": "Đang xử lý đơn hàng {{id}}",
+    "order_cancel": "Huỷ đơn hàng {{id}}",
+    "order_cancel_success": "Huỷ đơn hàng thành công",
+    "order_cancel_fail": "Huỷ đơn hàng thất bại",
+    "order_status": "Trạng thái đơn hàng",
+    "order_status_success": "Đơn hàng đã được xác nhận",
+    "order_status_fail": "Đơn hàng chưa được xác nhận",
+    "order_status_pending": "Đơn hàng đang chờ xác nhận",
+    "order_status_cancel": "Đơn hàng {{id}} đã bị huỷ"
+  },
+  "routes": {
+    "home": "Trang chủ",
+    "tableManager": "Quản lý bàn",
+    "employeeManager": "Quản lý nhân viên",
+    "branchManager": "Quản lý chi nhánh",
+    "revenueManager": "Quản lý doanh thu",
+    "menuManager": "Quản lý thực đơn"
+  },
+  "shared": {
+    "login": "Đăng nhập",
+    "signup": "Đăng ký",
+    "logout": "Đăng xuất",
+    "delete": "Xóa",
+    "confirm": "Xác nhận",
+    "cancel": "Hủy",
+    "close": "Đóng",
+    "loading": "Đang tải...",
+    "save": "Lưu",
+    "add": "Thêm",
+    "create": "Tạo",
+    "update": "Cập nhật",
+    "edit": "Chỉnh sửa",
+    "back": "Quay lại",
+    "detail": "Chi tiết",
+    "description": "Mô tả",
+    "status": "Trạng thái",
+    "action": "Hành động",
+    "search": "Tìm kiếm",
+    "reset": "Đặt lại",
+    "filter": "Lọc",
+    "view": "Xem",
+    "yes": "Có",
+    "no": "Không",
+    "all": "Tất cả",
+    "submit": "Gửi",
+    "refresh": "Làm mới",
+    "menu": "Thực đơn",
+    "category": "Danh mục",
+    "price": "Giá",
+    "dish": "Món ăn",
+    "count_dish": "{{count}} Món ăn",
+    "image": "Hình ảnh",
+    "branch": "Chi nhánh",
+    "type": "Loại",
+    "address": "Địa chỉ",
+    "phone": "Số điện thoại",
+    "discount": "Giảm giá",
+    "quantity": "Số lượng",
+    "total": "Tổng cộng",
+    "note": "Ghi chú",
+    "close_menu": "Đóng thực đơn",
+    "open_menu": "Mở thực đơn",
+    "add_to_cart": "Thêm vào giỏ hàng",
+    "remove_from_cart": "Xóa khỏi giỏ hàng",
+    "view_cart": "Xem giỏ hàng",
+    "checkout": "Thanh toán",
+    "empty_cart": "Giỏ hàng trống",
+    "cart": "Giỏ hàng",
+    "currentTable": "Bàn hiện tại: {{tableName}}",
+    "createdAt": "Tạo vào {{val, datetime}}",
+    "updatedAt": "Cập nhật vào {{val, datetime}}",
+    "dish_count": "số lượng món: ({{dishesCount}})",
+    "total_price": "Tổng tiền: {{totalPrice}}",
+    "empty_table": "Bàn trống",
+    "occupied_table": "Bàn đã đặt",
+    "served": "Đã lên món",
+    "time": "Cập nhật theo thời gian"
+  },
+  "user": {
+    "username": "Tài khoản",
+    "password": "Mật khẩu",
+    "fullname": "Họ tên",
+    "email": "Email",
+    "status": {
+      "title": "Trạng thái",
+      "active": "Kích hoạt",
+      "inactive": "Chưa kích hoạt"
+    },
+    "role": {
+      "title": "Vai trò",
+      "chef": "Bếp",
+      "employee": "Chi nhánh"
+    }
+  },
+  "landingPage": {
+    "welcome": "Chào mừng đến với hệ thống Gloria",
+    "description": "Hệ thống menu số giúp bạn quản lý menu một cách dễ dàng",
+    "button": "Trải nghiệm"
+  },
+  "login": {
+    "title": "Đăng nhập",
+    "button": "Đăng nhập",
+    "forgot": "Quên mật khẩu?",
+    "signup": "Đăng ký",
+    "error": {},
+    "success": {},
+    "warnning": {}
+  },
+  "signup": {
+    "title": "Đăng ký",
+    "button": "Đăng ký",
+    "login": "Đăng nhập",
+    "chooseRole": "Chọn vai trò",
+    "chooseBranch": "Chọn chi nhánh",
+    "error": {},
+    "success": {},
+    "warnning": {}
+  },
+  "adminPage": {
+    "header": {
+      "headerDashboadMobile": {
+        "dashboard": "Bảng điều khiển",
+        "notifications": "Thông báo",
+        "settings": "Cài đặt",
+        "search": "Tìm kiếm"
+      }
+    },
+    "dashboard": {
+      "stats": {
+        "billTitle": "Số Bill đã tạo",
+        "billDesc": "Tháng 2 - tháng 7",
+        "employeeTitle": "Số nhân viên",
+        "employeeDesc": "Tăng ↗ 400 (22%)",
+        "revenueTitle": "Doanh thu",
+        "revenueDesc": "Tăng ↘︎ 90 (14%)",
+        "branchTitle": "Chi nhánh",
+        "branchDesc": "Tăng ↘︎ 90 (14%)"
+      },
+      "tableBill": {
+        "latestBill": "Bill mới nhất",
+        "serialNumber": "STT",
+        "branch": "Chi nhánh",
+        "quantity": "Số lượng món",
+        "totalAmount": "Tổng tiền",
+        "date": "Ngày",
+        "status": "Trạng thái",
+        "placed": "Đã đặt hàng",
+        "cancelled": "Huỷ bỏ",
+        "placing": "Đang đặt hàng"
+      },
+      "chartsDashboard": {
+        "areChart": {
+          "chartTitle": "Bảng thống kê hóa đơn theo tháng"
+        },
+        "pieChart": {
+          "chartTitle": "Bảng thống kê khách theo tháng"
+        },
+        "composedChart": {
+          "chartTitle": "Bảng thống kê khách theo tháng"
+        }
+      }
+    },
+    "branchesManagerment": {
+      "mainBranch": {
+        "selectBranch": "Chọn chi nhánh",
+        "chooseBranch": "Chọn chi nhánh",
+        "prevPage": "Trang trước",
+        "nextPage": "Trang sau",
+        "tableBranch": {
+          "serialNumber": "STT",
+          "branch": "Chi nhánh",
+          "email": "Email",
+          "phoneNumber": "Số điện thoại",
+          "openingClosingHours": "Giờ mở cửa - đóng cửa",
+          "status": "Trạng thái",
+          "view": "Xem",
+          "update": "Cập nhật"
+        }
+      },
+      "branchDetails": {
+        "backButton": "Quay về",
+        "branch": "Chi nhánh",
+        "openingClosingHours": "Giờ mở cửa - đóng cửa",
+        "menu": "Menu",
+        "noMenu": "Không có menu",
+        "address": "Địa chỉ",
+        "email": "Email",
+        "phoneNumber": "Số điện thoại",
+        "creator": "Người tạo chi nhánh",
+        "anonymous": "ẩn danh",
+        "loading": "đang tải...",
+        "chartsBranchDetails": {
+          "chartTitle": "Bảng thống kê doanh thu theo tháng"
+        },
+        "statusBranch": {
+          "orderStatus": "Trạng thái đơn hàng",
+          "tableNumber": "Mã số bàn",
+          "totalItems": "Tổng món ăn",
+          "totalPrice": "Tổng tiền",
+          "employeeName": "Tên nhân viên",
+          "status": "Trạng thái",
+          "success": "Thành công"
+        },
+        "recentActiveBranch": {
+          "recentActivity": "Hoạt động gần đây",
+          "billCreated": "1 Bill được tạo",
+          "tableNumber": "Bàn",
+          "revenueIncreased": "Doanh thu vừa tăng lên"
+        }
+      },
+      "postBranch": {
+        "title": "Tạo chi nhánh",
+        "placeholderName": "vd: Chi nhánh 22",
+        "placeholderAddress": "vd: 21 Quang Trung, Gò Vấp, TP.HCM",
+        "placeholderEmail": "vd: example@gmail.com",
+        "placeholderPhoneNumber": "vd: 012345678",
+        "placeholderOpen": "vd: 8",
+        "placeholderClose": "vd: 22",
+        "selectMenu": "Chọn Menu",
+        "common": {
+          "save": "Thêm chi nhánh",
+          "name": "Tên",
+          "address": "Địa chỉ",
+          "email": "Email",
+          "phone_number": "Số điện thoại",
+          "open": "Giờ mở cửa",
+          "close": "Giờ kết thúc",
+          "menu": "Chọn Menu",
+          "error": "Đã có lỗi xảy ra, vui lòng nhập lại đúng dữ liệu!",
+          "success": "Chi nhánh đã được tạo thành công!"
+        },
+        "errorMessage": {
+          "name": "Tên chi nhánh phải có ít nhất 6 ký tự",
+          "maxName": "Tên chi nhánh không được vượt quá 100 ký tự",
+          "address": "Địa chỉ phải có ít nhất 6 ký tự",
+          "email": "Định dạng email không hợp lệ",
+          "phone_number": "Số điện thoại phải có từ 10 đến 15 ký tự",
+          "open": "Thời gian mở cửa không được để trống và phải là số",
+          "close": "Thời gian đóng cửa không được để trống và phải là số",
+          "menu_id": "Bạn chưa chọn menu"
+        }
+      },
+      "updateBranch": {
+        "title": "Cập nhật chi nhánh",
+        "save": " Cập nhật chi nhánh",
+        "saving": "Đang cập nhật...",
+        "error": "Đã xảy ra lỗi khi cập nhật chi nhánh",
+        "success": "Chi nhánh đã được cập nhật thành công",
+        "notFound": "ID của chi nhánh không tồn tại"
+      }
+    },
+    "employeesManagerment": {
+      "mainEmployees": {
+        "userDropdownPlaceholder": "Tài khoản",
+        "userDropdownLabel": "Tài khoản",
+        "roleDropdownPlaceholder": "Chức vụ",
+        "roleOptionEmployee": "Nhân viên",
+        "roleOptionKitchen": "Bếp",
+        "pendingUsersLink": "Chờ duyệt: ",
+        "loading": "Đang tải...",
+        "tableEmployees": {
+          "tableHeader": {
+            "stt": "STT",
+            "fullname": "Họ & Tên",
+            "role": "Chức vụ",
+            "email": "Email",
+            "phone": "Số điện thoại",
+            "accountStatus": "Trạng thái tài khoản",
+            "action": "Hành động"
+          },
+          "actionButtons": {
+            "view": "Xem",
+            "delete": "Xoá"
+          },
+          "notify": {
+            "success": "Xoá nhân viên thành công",
+            "error": "Xoá nhân viên thất bại"
+          },
+          "pagination": {
+            "prevPage": "Trang trước",
+            "nextPage": "Trang sau"
+          },
+          "modal": {
+            "title": "Xoá nhân viên",
+            "description": "Nhân viên sẽ bị xoá vĩnh viễn. Bạn có chắc chắn không?",
+            "confirmButton": "Đồng ý",
+            "cancelButton": "Quay lại"
+          },
+          "employeeStatus": {
+            "inactive": "chưa kích hoạt",
+            "active": "đã kích hoạt"
+          }
+        }
+      },
+      "employeeDetails": {
+        "back": "Quay lại",
+        "update": "Cập nhật",
+        "loadingError": "Lỗi khi tải dữ liệu...",
+        "dataLoadingFailed": "Không thể tải dữ liệu...",
+        "at": "lúc",
+        "username": "Tên tài khoản",
+        "fullname": "Họ & tên",
+        "email": "Email",
+        "phone": "Số điện thoại",
+        "status": "Trạng thái tài khoản",
+        "inactiveAccount": "Tài khoản chưa kích hoạt",
+        "activeAccount": "Tài khoản đã kích hoạt",
+        "role": "Vai trò",
+        "branch": "Chi nhánh",
+        "loading": "Đang tải",
+        "noData": "Không có dữ liệu",
+        "createdAt": "Tạo vào",
+        "updatedAt": "Cập nhật vào"
+      },
+      "updateEmployee": {
+        "updateAccount": "Cập nhật tài khoản",
+        "username": "Tên đăng nhập",
+        "fullname": "Họ & tên",
+        "email": "Email",
+        "phone": "Số điện thoại",
+        "role": "Vai trò",
+        "branch": "Chi nhánh",
+        "employee": "Nhân viên",
+        "chef": "Đầu bếp",
+        "updating": "Đang cập nhật...",
+        "updateEmployee": "Cập nhật nhân viên",
+        "updateError": "Lỗi khi cập nhật nhân viên",
+        "updateSuccess": "Nhân viên đã được cập nhật thành công",
+        "idNotExist": "ID của nhân viên không tồn tại"
+      },
+      "postEmployee": {
+        "minUsername": "Tên đăng nhập phải có ít nhất 6 ký tự",
+        "maxUsername": "Tên đăng nhập không được vượt quá 100 ký tự",
+        "minFullname": "Họ và tên phải có ít nhất 6 ký tự",
+        "maxFullname": "Họ và tên không được vượt quá 100 ký tự",
+        "invalidEmail": "Địa chỉ email không hợp lệ",
+        "minPassword": "Mật khẩu phải có ít nhất 6 ký tự",
+        "maxPassword": "Mật khẩu không được vượt quá 100 ký tự",
+        "minPhone": "Số điện thoại phải có ít nhất 10 ký tự",
+        "maxPhone": "Số điện thoại không được vượt quá 15 ký tự",
+        "requiredRole": "Vai trò không được để trống",
+        "requiredBranch": "Chi nhánh không được để trống",
+        "createEmployee": "Tạo mới nhân viên",
+        "username": "Tên đăng nhập",
+        "fullname": "Họ & tên",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "phone": "Số điện thoại",
+        "role": "Vai trò",
+        "branch": "Chi nhánh",
+        "selectRole": "Chọn vai trò",
+        "selectBranch": "Chọn chi nhánh",
+        "chef": "Đầu bếp",
+        "employee": "Nhân viên",
+        "addEmployee": "Thêm nhân viên",
+        "error": "Lỗi",
+        "unknownError": "Đã có lỗi xảy ra",
+        "genericError": "Đã có lỗi xảy ra, vui lòng nhập lại đúng dữ liệu!",
+        "employeeCreated": "Nhân viên đã được tạo thành công!",
+        "placeholder": {
+          "usernamePlaceholder": "vd: john_doe",
+          "fullnamePlaceholder": "vd: Mai Đào Thanh Vũ",
+          "emailPlaceholder": "vd: vdevcode@gmail.com",
+          "passwordPlaceholder": "vd: 123456",
+          "phonePlaceholder": "vd: 0353442197"
+        }
+      }
+    },
+    "requestEmployees": {
+      "dashboard": "Bảng điều khiển",
+      "pending_users": "Nhân viên chờ phê duyệt",
+      "back": "Quay lại",
+      "employee_name": "Tên nhân viên",
+      "position": "Chức vụ",
+      "email": "Email",
+      "phone": "Số điện thoại",
+      "action": "Hành động",
+      "no_pending_users": "Chưa có tài khoản người dùng cần kích hoạt",
+      "error": {
+        "approve_user": "Đã xảy ra lỗi khi duyệt nhân viên!!!"
+      },
+      "success": {
+        "approve_user": "Duyệt nhân viên thành công!!!",
+        "approving": "Đang duyệt...",
+        "approve": "Duyệt"
+      }
+    },
+    "revenueManagerment": {
+      "revenueTitle": "Tổng doanh thu",
+      "branch": "Chi nhánh:",
+      "hcmc": "TP.HCM",
+      "selectBranch": "Chọn chi nhánh",
+      "year": "Năm",
+      "selectYear": "Chọn năm",
+      "revenueIncrease": "12%",
+      "chartData": "Dữ liệu biểu đồ"
+    },
+    "menuManagement": {
+      "mainMenu": {
+        "numericalOrder": "STT",
+        "menuName": "Tên thực đơn",
+        "creator": "Người khởi tạo",
+        "innitiatedDate": "Ngày khởi tạo",
+        "action": "Hành động",
+        "button": {
+          "detail": "Xem",
+          "update": "Cập nhật",
+          "delete": "Xóa"
+        },
+        "modal": {
+          "addMenu": "Tạo thực đơn",
+          "updateMenu": "Cập nhật thực đơn",
+          "menuName": "Tên thực đơn",
+          "image": "Hình ảnh",
+          "error": {
+            "valid_menuName": "Vui lòng nhập tên thực đơn!!!",
+            "valid_menuImg": "Vui lòng tải lên hình ảnh!!!"
+          },
+          "btnSubmit": "Hoàn thành"
+        }
+      },
+      "menuDetail": {
+        "numericalOrder": "STT",
+        "foodImage": "Hình ảnh",
+        "foodName": "Tên",
+        "description": "Mô tả",
+        "price": "Giá",
+        "category": "Loại",
+        "action": "Hành động",
+        "error": {
+          "empty": "Thực đơn hiện đang trống."
+        },
+        "button": {
+          "update": "Cập nhật",
+          "delete": "Xóa"
+        },
+        "modal": {
+          "addFood": "Thêm món",
+          "updateMenu": "Cập nhật món",
+          "foodCategory": "Danh mục",
+          "foodName": "Tên món",
+          "price": "Giá",
+          "description": "Mô tả",
+          "image": "Hình ảnh",
+          "error": {
+            "valid_category": "Vui lòng nhập danh mục!!!",
+            "valid_foodName": "Vui lòng nhập tên món ăn!!!",
+            "valid_foodPrice": "Vui lòng nhập giá!!!",
+            "valid_foodDescription": "Vui lòng nhập mô tả!!!",
+            "valid_foodDesLength": "Mô tả phải có ít nhất 10 ký tự!!!",
+            "valid_foodImg": "Vui lòng tải lên hình ảnh!!!"
+          },
+          "btnSubmit": "Hoàn thành"
+        }
+      }
+    }
+  },
+  "orderPage": {
+    "customerDashboard": {
+      "search_placeholder": "Tìm món ăn...",
+      "menu_title": "Menu món ăn",
+      "all_categories": "Tất cả",
+      "call_order_button": "Gọi món ngay",
+      "discount_program_title": "Chương trình giảm giá vào T7, CN",
+      "discount_program_description": "Đến với Gloria, nơi bạn có thể order món ăn với giá thành hấp dẫn so với các địa điểm bạn đã từng đến, vì chúng tôi đặt mối quan tâm đến vấn đề giá cả và chất lượng lên hàng đầu.",
+      "no_menus_available": "Hiện chưa có thực đơn nào!"
+    },
+    "cartOders": {
+      "cart_title": "Giỏ hàng",
+      "cart_item_count": "món",
+      "total_amount": "Tổng",
+      "confirm_button": "Xác nhận",
+      "cart_my_dishes": "Món ăn của tôi",
+      "delete_cart": "Xoá",
+      "success_message": "Đặt món ăn thành công!!!",
+      "create_bill_error": "Có lỗi xảy ra khi tạo hóa đơn, vui lòng thử lại sau!",
+      "error_message": "Không tìm thấy món ăn nào, bạn vui lòng thêm món nha.",
+      "table_name": "Bàn",
+      "update": "Cập nhật số lượng thành công!!!",
+      "not_open": "chưa được mở, vui lòng mở và tiếp tục order!"
+    },
+    "updateCart": {
+      "description": "Mô tả",
+      "notes": "Ghi chú",
+      "update_cart": " Cập nhật",
+      "example_placeholder": "example: vd: bạn không ăn cay..."
+    },
+    "productDetails": {
+      "home": "Trang chủ",
+      "search_placeholder": "Tìm kiếm sản phẩm...",
+      "add_to_cart": "Thêm vào giỏ hàng",
+      "add_to_cart_success": "Thêm sản phẩm vào giỏ hàng thành công!!",
+      "price": "Giá",
+      "description": "Mô tả",
+      "minutes": "phút",
+      "rating": "đánh giá"
+    }
+  },
+  "employeeMenuManager": {
+    "title": "Quản lý thực đơn",
+    "createNewMenu": "Tạo menu mới",
+    "noBranchAccount": "Tài khoản của bạn chưa thuộc chi nhánh nào ! vui lòng nhập tài khoản"
+  },
+  "employeeDashboard": {
+    "title": "Trang chủ",
+    "newOrder": "Có yêu cầu mới tại bàn {{tableName}} với {{orderCount}} món",
+    "newOrdersChef": "Vừa cập nhật món {{newFoods}} với số lượng là {{quantityFoods}}",
+    "open_table": "Mở bàn",
+    "change_table": "Chuyển bàn",
+    "duplicateId": "Bàn hiện tại và bàn mới phải khác nhau.",
+    "not_full_fied": "Vui lòng chọn cả bảng hiện tại và bảng mới.",
+    "select_table_please": "Lựa chọn bàn mà bạn muốn chuyển tới",
+    "select_table": "Chọn bàn"
+  },
+  "employeeTableManager": {
+    "title": "Quản lý bàn",
+    "all": "Tất cả ({{count}})",
+    "active": "Đang phục vụ ({{count}})",
+    "empty": "Bàn Trống ({{count}})",
+    "add_new_table": "Thêm bàn mới",
+    "availabelTable": "Bàn hiện có: ({{count}})"
+  },
+  "BillPages": {
+    "table_bill": "Hoá đơn của bàn",
+    "fetch_error": "Đã xảy ra lỗi fetch API",
+    "update": "Cập nhật",
+    "delete": "Xoá",
+    "total_amount": "Tổng tiền",
+    "add_new_item": "Thêm món mới",
+    "edit_note": "Ghi chú",
+    "quantity": "Số lượng",
+    "food_name": "Món ăn",
+    "info": "Thông tin",
+    "status": "Trạng thái",
+    "making": "Đang làm...",
+    "UpdateBillSuccess": "Cập nhật thành công: {{foodName}}",
+    "UpdateBillUnknownError": "Không thể cập nhật chi tiết hóa đơn: Lỗi không xác định",
+    "UpdateBillError": "Không thể cập nhật chi tiết hóa đơn: {{errorMessage}}",
+    "MissingRequiredFields": "Thiếu các trường bắt buộc '_id', 'branchId', hoặc 'tableName'",
+    "DeleteBillSuccess": "Xóa thành công món: {{foodName}}",
+    "DeleteBillUnknownError": "Lỗi không xác định khi xóa",
+    "DeleteBillError": "Lỗi khi xóa: {{errorMessage}}",
+    "DeleteBillStatusError": "Trạng thái món không đúng nên không thể xoá",
+    "CanUpdate": "Bạn chỉ có thể update được món khi trạng thái là đã đặt hàng",
+
+    "ItemNotFound": "Không tìm thấy số lượng cũ"
+  },
+  "modalAddMenuDetail": {
+    "add": "Thêm",
+    "adding": "Đang Thêm...",
+    "editing": "Đang Sửa...",
+    "edit": "Chỉnh sửa",
+    "add_menu": "Thêm Món",
+    "edit_menu": "Chỉnh sửa Món",
+    "type": "Loại",
+    "food_name": "Tên món",
+    "price": "Giá tiền",
+    "description": "Mô tả",
+    "image": "Hình ảnh"
+  },
+  "modalDelete": {
+    "confirm_delete": "Xác nhận",
+    "cancel": "Đóng",
+    "delete_product": "Xóa Sản phẩm",
+    "deleting_product": "Đang xoá Sản phẩm",
+    "confirm_delete_message": "Xác nhận xóa sản phẩm này !"
+  },
+  "ChefPages": {
+    "title": "Bảng điều khiển của đầu bếp",
+    "employeeDashboard": {
+      "newOrdersChef": "Có đơn hàng mới: {{newFoods}} (số lượng: {{quantityFoods}})"
+    },
+    "chefDetail": {
+      "table_name": "Bàn {{id}}",
+      "statusUpdateSuccess": "Cập nhật trạng thái thành công!",
+      "statusUpdateError": "Có lỗi xảy ra khi cập nhật trạng thái.",
+      "tableNotFound": "Bàn không tồn tại.",
+      "noNote": "Không có",
+      "ordered": "Đã đặt món",
+      "preparing": "Đang làm món",
+      "served": "Đã hoàn thành",
+      "confirm": "Xác nhận",
+      "complete": "Hoàn tất",
+      "total_table": "Tổng bàn",
+      "create_table": "Bàn được tạo",
+      "not_create_table": "Bàn này không có ngày tạo"
+    }
+  }
+}
